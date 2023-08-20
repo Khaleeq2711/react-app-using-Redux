@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2%;
+    border-bottom: 8px solid rgb(0, 176, 176);
+    margin: 0px 9%;
+
+}
+.logo{
+    padding-right: 2%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-weight: bolder;
+    
+}
+.btn-logout{
+    margin-top: 2.8%;
+    height: 70%;
+    width: 6rem;
+    background-color: #00ffff;
+    border: 2px solid rgb(255, 255, 255);
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+}
+.btn-logout:hover{
+    background-color: rgb(0, 134, 134);
+  }
+  
+  .btn-logout:active{
+    background-color: rgb(0, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+  }
